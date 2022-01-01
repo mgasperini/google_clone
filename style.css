@@ -17,7 +17,7 @@ a {
   color: #9aa0a6;
   align-self: center;
 }
-a:hover {
+.under:hover {
   text-decoration: underline;
 }
 body {
@@ -52,12 +52,57 @@ nav .nav-menu_productos:hover {
   width: 18px;
   border-radius: 50%;
 }
+
 .nav-menu_productos .circulo {
   border-radius: 50%;
   border: 2px solid #ffffff;
   margin: 1px;
 }
 
+nav .nav-menu:nth-child(3):hover::after {
+  position:absolute;
+  margin-top: 15px;
+  margin-left: -25px;
+  padding: 7px;
+  content: "Google Apps";
+  background-color: #474a4e;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  color: #e8eaed;
+  }
+
+  .nav-menu_img:hover::before {
+    position:absolute;
+    margin-top: 40px;
+    margin-left: -123px;
+    width: 150px;
+    padding: 7px;
+    content: "Cuenta de Google";
+    background-color: #474a4e;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #e8eaed;
+    text-align: left;
+    }
+
+    .nav-menu_img:hover::after{
+      position:absolute;
+      margin-top: 59px;
+      margin-left: -155px;
+      width: 150px;
+      padding: 7px;
+      
+      content: "Matias Gasperini \ m***************@gmail.com";
+      
+      background-color: #474a4e;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      color: #9c9d9e;
+      text-align: left;
+      }
 .nav-menu_img {
   border-radius: 50%;
 }
@@ -119,15 +164,30 @@ main {
   width: 20px;
   height: 20px;
 }
-.main-buscador_microfono div{
+.main-buscador_microfono div {
   background-image: url("https://cdn.icon-icons.com/icons2/2642/PNG/512/google_mic_logo_icon_159335.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   padding: 3px 0;
-  height: 24px;
+  height: 35px;
   width: 24px;
   cursor: pointer;
+}
+
+.main-buscador_microfono div:hover::after {
+  content: "Búsqueda por voz";
+  background-color: #303134;
+  border: 1px solid #e8eaed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.5vh;
+  margin-left: -40px;
+  padding: 10px;
+  font-size: 1rem;
+  color: #e8eaed;
+  width: 100px;
 }
 
 .main-buscador_botones {
