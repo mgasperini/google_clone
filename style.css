@@ -60,7 +60,7 @@ nav .nav-menu_productos:hover {
 }
 
 nav .nav-menu:nth-child(3):hover::after {
-  position:absolute;
+  position: absolute;
   margin-top: 15px;
   margin-left: -25px;
   padding: 7px;
@@ -70,39 +70,39 @@ nav .nav-menu:nth-child(3):hover::after {
   border-radius: 3px;
   font-size: 1.2rem;
   color: #e8eaed;
-  }
+}
 
-  .nav-menu_img:hover::before {
-    position:absolute;
-    margin-top: 40px;
-    margin-left: -123px;
-    width: 150px;
-    padding: 7px;
-    content: "Cuenta de Google";
-    background-color: #474a4e;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    color: #e8eaed;
-    text-align: left;
-    }
+.nav-menu_img:hover::before {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -123px;
+  width: 150px;
+  padding: 7px;
+  content: "Cuenta de Google";
+  background-color: #474a4e;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #e8eaed;
+  text-align: left;
+}
 
-    .nav-menu_img:hover::after{
-      position:absolute;
-      margin-top: 59px;
-      margin-left: -155px;
-      width: 150px;
-      padding: 7px;
-      
-      content: "Matias Gasperini \ m***************@gmail.com";
-      
-      background-color: #474a4e;
-      border: none;
-      border-radius: 5px;
-      font-size: 1.2rem;
-      color: #9c9d9e;
-      text-align: left;
-      }
+.nav-menu_img:hover::after {
+  position: absolute;
+  margin-top: 59px;
+  margin-left: -155px;
+  width: 150px;
+  padding: 7px;
+
+  content: "Matias Gasperini \ m***************@gmail.com";
+
+  background-color: #474a4e;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #9c9d9e;
+  text-align: left;
+}
 .nav-menu_img {
   border-radius: 50%;
 }
